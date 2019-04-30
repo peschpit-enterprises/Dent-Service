@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<body>
+<h1>KENTWOOD TRAVELING DENT REPAIR SERVICE</h1>
+<img src='https://www.dentkraftpdr.com/wp-content/uploads/2013/03/chevy-impala.jpg' />
+<p><span id="left"><strong>Paintless Dent Removal</strong><br /><br /> My tools <br />don't hurt your paint job <br /> but can fix your dents.<br /><br /><strong>CASH ONLY.</strong></span>
+<span id="middle">Lowest Rates in Grand Rapids, <br /> starting at <span class="price">$29</span>.<br />Quote depends on project size <br /> and foreseen difficulty.<br />
+Not all dents are fixable <br /> but I don't charge if I don't get it <br /> mostly back in shape.<br/></span>
+<span class="creases" id="right"><br /><strong>I cannot fix dents <br /> associated with creases.<br />Please first check for a <br/> crease.</strong></span>
+</p>
+<address>
+Make an Appointment with Geoff: (269) 719-0786
+</address>
+</body>
+
+<style>
+body {
+background: rgb(218,218,218);
+}
+
+h1 {
+text-align: center;
+margin: 10px;
+font-size: 24px;
+color: navy;
+text-shadow: white 2px 2px 2px;
+letter-spacing: 1px;
+}
+
+img {
+width: 100%;
+}
+
+
+p {
+text-align: center;
+display: -ms-grid;
+display: grid;
+-ms-grid-template-columns: 7fr 9fr 7fr;
+grid-template-columns: 7fr 9fr 7fr;
+font-size: 18px;
+color: navy;
+}
+
+address {
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+color: navy;
+text-shadow: 1px 1px 1px white;
+letter-spacing: 1px;
+}
+
+.creases {
+color: darkred;
+}
+
+.price {
+font-size: 24px;
+color: green;
+font-weight: bold;
+}
+
+#left {
+grid-column: 1;
+-ms-grid-column: 1;
+border-width: 1px;
+border-style: outset;
+}
+
+#middle {
+grid-column: 2;
+-ms-grid-column: 1;
+border-width: 1px;
+border-style: outset;
+}
+
+#right {
+grid-column: 3;
+-ms-grid-column: 1;
+border-width: 1px;
+border-style: outset;
+}
+
+
+</style>
+
+
+<script>
+</script>
+
